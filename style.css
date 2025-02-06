@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #000;
+    color: white;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(15px);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    color: #FF9500;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0 40px;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #FF9500;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #000, #222);
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    background: linear-gradient(90deg, #FF9500, #FF5700);
+    -webkit-background-clip: text;
+    color: white;
+}
+
+.hero p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(90deg, #FF9500, #FF5700);
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(255, 149, 0, 0.5);
+}
+
+.btn2 {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(90deg, #FF9500, #FF5700);
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0px 4px 15px rgba(255, 149, 0, 0.5);
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #FF5700, #FF9500);
+    box-shadow: 0px 4px 20px rgba(255, 149, 0, 0.7);
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background: rgba(255, 149, 0, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    width: 250px;
+    transition: 0.3s;
+    border: 2px solid #FF9500;
+}
+
+.feature:hover {
+    transform: scale(1.05);
+}
+
+.cta {
+    background: black;
+    padding: 60px 20px;
+    color: 90deg, #FF9500, #FF5700;
+    border-radius: 10px;
+    margin: 50px 10%;
+}
